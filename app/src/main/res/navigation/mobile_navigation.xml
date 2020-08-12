@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sarika.budgetbuddy.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="com.example.sarika.budgetbuddy.ui.addCategory.AddFragment"
+        android:label=" Add Category"
+        tools:layout="@layout/fragment_add" />
+
+    <fragment
+        android:id="@+id/nav_edit"
+        android:name="com.example.sarika.budgetbuddy.ui.editCategory.EditFragment"
+        android:label="Edit Category"
+        tools:layout="@layout/fragment_edit" />
+
+    <fragment
+        android:id="@+id/nav_delete"
+        android:name="com.example.sarika.budgetbuddy.ui.deleteCategory.DeleteFragment"
+        android:label="Delete Category"
+        tools:layout="@layout/fragment_delete" />
+
+    <fragment
+        android:id="@+id/nav_sign_out"
+        android:name="com.example.sarika.budgetbuddy.ui.signOut.SignOutFragment"
+        android:label=" Sign Out"
+        tools:layout="@layout/fragment_sign_out" />
+
+</navigation>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "414021124279",
+    "firebase_url": "https://budgetbuddy-7d8cb.firebaseio.com",
+    "project_id": "budgetbuddy-7d8cb",
+    "storage_bucket": "budgetbuddy-7d8cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414021124279:android:e01372238e32134f",
+        "android_client_info": {
+          "package_name": "com.example.sarika.budgetbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414021124279-k0ljt7gtvvrae8rnfa34r5nlptoab1ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrVgYOVFdE7qJpx8l-dTffiz_WBDtdZZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414021124279-k0ljt7gtvvrae8rnfa34r5nlptoab1ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
